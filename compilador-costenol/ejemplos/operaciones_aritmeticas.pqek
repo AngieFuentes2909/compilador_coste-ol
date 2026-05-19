@@ -1,0 +1,27 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Operaciones Aritmeticas
+//  Prueba suma, resta, multiplicacion y division
+// ─────────────────────────────────────────────
+
+x Entero;
+y Entero;
+suma Entero;
+resta Entero;
+producto Entero;
+division Real;
+
+x = 20;
+y = 4;
+
+suma = x + y;
+resta = x - y;
+producto = x * y;
+division = x - y;
+
+Mensaje.Texto("Valores: x = 20, y = 4");
+Mensaje.Texto("Suma x + y =");
+Mensaje.Texto(suma);
+Mensaje.Texto("Resta x - y =");
+Mensaje.Texto(resta);
+Mensaje.Texto("Producto x * y =");
+Mensaje.Texto(producto);

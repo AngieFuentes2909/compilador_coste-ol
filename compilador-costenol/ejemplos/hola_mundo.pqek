@@ -1,0 +1,7 @@
+// ─────────────────────────────────────────────
+//  Ejemplo 1: Hola Mundo
+//  Compilador Costeñol - PQEK v2.0
+// ─────────────────────────────────────────────
+
+Mensaje.Texto("¡Epa llave! Bienvenido al Compilador Costeñol");
+Mensaje.Texto("Hecho con sabor caribeño colombiano");

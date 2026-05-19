@@ -1,0 +1,13 @@
+// ─────────────────────────────────────────────
+//  Ejemplo ERROR: Error Lexico
+//  Contiene caracteres invalidos para el lexer
+//  El analizador lexico los debe detectar
+//  y subrayar en rojo en el editor
+// ─────────────────────────────────────────────
+
+x Entero;
+
+// ERROR LEXICO: el simbolo @ no pertenece al lenguaje
+x = 10 @ 5;
+
+Mensaje.Texto(x);

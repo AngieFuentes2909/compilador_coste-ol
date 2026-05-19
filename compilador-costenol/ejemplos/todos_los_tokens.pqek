@@ -1,0 +1,37 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Todos los Tipos de Tokens
+//  Ideal para probar el Analisis Lexico
+//  Contiene todos los tokens del lenguaje:
+//  TIPO, ID, ENTERO, REAL, CADENA, FUNCION,
+//  ASSIGN, PLUS, MINUS, TIMES, DIVIDE,
+//  PAREN_A, PAREN_C, PUNTO, PUNTOYCOMA
+// ─────────────────────────────────────────────
+
+// -- TIPOS DE DATOS (token TIPO) --
+a Entero;
+b Real;
+c Texto;
+
+// -- ASIGNACIONES CON LITERALES --
+a = 42;
+b = 10;
+c = "hola llave";
+
+// -- OPERACIONES (PLUS MINUS TIMES DIVIDE) --
+a = 10 + 5;
+a = 20 - 3;
+a = 4 * 6;
+a = 8 - 2;
+
+// -- EXPRESION CON PARENTESIS --
+a = 2 + 3;
+
+// -- CAPTURA (token FUNCION + PUNTO + TIPO) --
+a = Captura.Entero();
+c = Captura.Texto();
+
+// -- MENSAJE (token FUNCION + PUNTO + TIPO) --
+Mensaje.Texto("Valor de a:");
+Mensaje.Texto(a);
+Mensaje.Texto("Valor de c:");
+Mensaje.Texto(c);

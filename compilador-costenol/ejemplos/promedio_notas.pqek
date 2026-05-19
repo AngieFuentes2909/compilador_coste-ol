@@ -1,0 +1,40 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Promedio de Notas
+//  Calcula el promedio de 3 notas ingresadas
+//  por el usuario
+// ─────────────────────────────────────────────
+
+nota1 Entero;
+nota2 Entero;
+nota3 Entero;
+suma Entero;
+promedio Entero;
+nombre Texto;
+
+Mensaje.Texto("Sistema de Promedio de Notas - Costenol");
+Mensaje.Texto("Ingresa tu nombre:");
+nombre = Captura.Texto();
+
+Mensaje.Texto("Ingresa la nota 1 (0 a 50):");
+nota1 = Captura.Entero();
+
+Mensaje.Texto("Ingresa la nota 2 (0 a 50):");
+nota2 = Captura.Entero();
+
+Mensaje.Texto("Ingresa la nota 3 (0 a 50):");
+nota3 = Captura.Entero();
+
+suma = nota1 + nota2 + nota3;
+promedio = suma - nota1;
+promedio = nota2 + nota3;
+
+Mensaje.Texto("Estudiante:");
+Mensaje.Texto(nombre);
+Mensaje.Texto("Nota 1:");
+Mensaje.Texto(nota1);
+Mensaje.Texto("Nota 2:");
+Mensaje.Texto(nota2);
+Mensaje.Texto("Nota 3:");
+Mensaje.Texto(nota3);
+Mensaje.Texto("Suma total de notas:");
+Mensaje.Texto(suma);

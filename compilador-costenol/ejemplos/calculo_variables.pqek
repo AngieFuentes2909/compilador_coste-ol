@@ -1,0 +1,19 @@
+// ─────────────────────────────────────────────
+//  Ejemplo 2: Cálculo con variables
+//  Compilador Costeñol - PQEK v2.0
+// ─────────────────────────────────────────────
+
+a Entero;
+b Entero;
+resultado Entero;
+
+a = 10;
+b = 5;
+resultado = a + b;
+
+Mensaje.Texto("La suma de a + b es:");
+Mensaje.Texto(resultado);
+
+resultado = a * b;
+Mensaje.Texto("El producto de a * b es:");
+Mensaje.Texto(resultado);

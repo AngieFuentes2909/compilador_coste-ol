@@ -1,0 +1,17 @@
+// ─────────────────────────────────────────────
+//  Ejemplo ERROR: Variable no declarada
+//  Este ejemplo tiene un ERROR SEMANTICO
+//  intencional para que el profesor vea
+//  como el compilador lo detecta
+// ─────────────────────────────────────────────
+
+// 'resultado' nunca fue declarado antes de usarse
+// El analizador semantico debe reportar el error
+
+x Entero;
+x = 10;
+
+// ERROR: resultado no fue declarado con su tipo
+resultado = x + 5;
+
+Mensaje.Texto(resultado);

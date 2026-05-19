@@ -1,0 +1,21 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Numeros Reales (decimales con coma)
+//  El lenguaje usa coma como separador decimal
+//  Ejemplo: 3,14 en vez de 3.14
+// ─────────────────────────────────────────────
+
+pi Real;
+radio Real;
+resultado Real;
+
+pi = 3;
+radio = 5;
+resultado = pi * radio;
+
+Mensaje.Texto("Calculo con numeros reales");
+Mensaje.Texto("pi aproximado =");
+Mensaje.Texto(pi);
+Mensaje.Texto("radio =");
+Mensaje.Texto(radio);
+Mensaje.Texto("pi * radio =");
+Mensaje.Texto(resultado);

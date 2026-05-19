@@ -1,0 +1,29 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Multiples Variables y Expresiones
+//  Demuestra uso de varias variables en cadena
+// ─────────────────────────────────────────────
+
+a Entero;
+b Entero;
+c Entero;
+temp Entero;
+total Entero;
+
+a = 10;
+b = 20;
+c = 30;
+
+temp = a + b;
+total = temp + c;
+
+Mensaje.Texto("a = 10, b = 20, c = 30");
+Mensaje.Texto("a + b =");
+Mensaje.Texto(temp);
+Mensaje.Texto("(a + b) + c =");
+Mensaje.Texto(total);
+Mensaje.Texto("a * b =");
+temp = a * b;
+Mensaje.Texto(temp);
+Mensaje.Texto("b * c =");
+temp = b * c;
+Mensaje.Texto(temp);

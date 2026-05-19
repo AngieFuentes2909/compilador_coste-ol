@@ -1,0 +1,58 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Registro de Estudiante
+//  Simula un formulario de inscripcion
+//  Solicita datos personales y academicos
+// ─────────────────────────────────────────────
+
+nombre Texto;
+apellido Texto;
+codigo Entero;
+semestre Entero;
+nota1 Entero;
+nota2 Entero;
+sumaNotas Entero;
+
+Mensaje.Texto("===================================");
+Mensaje.Texto("  SISTEMA DE REGISTRO ESTUDIANTIL  ");
+Mensaje.Texto("  Universidad Costenola - PQEK     ");
+Mensaje.Texto("===================================");
+
+Mensaje.Texto("Ingresa tu nombre:");
+nombre = Captura.Texto();
+
+Mensaje.Texto("Ingresa tu apellido:");
+apellido = Captura.Texto();
+
+Mensaje.Texto("Ingresa tu codigo estudiantil:");
+codigo = Captura.Entero();
+
+Mensaje.Texto("Ingresa el semestre actual:");
+semestre = Captura.Entero();
+
+Mensaje.Texto("Ingresa tu primera nota parcial:");
+nota1 = Captura.Entero();
+
+Mensaje.Texto("Ingresa tu segunda nota parcial:");
+nota2 = Captura.Entero();
+
+sumaNotas = nota1 + nota2;
+
+Mensaje.Texto("-----------------------------------");
+Mensaje.Texto("RESUMEN DEL ESTUDIANTE");
+Mensaje.Texto("-----------------------------------");
+Mensaje.Texto("Nombre:");
+Mensaje.Texto(nombre);
+Mensaje.Texto("Apellido:");
+Mensaje.Texto(apellido);
+Mensaje.Texto("Codigo:");
+Mensaje.Texto(codigo);
+Mensaje.Texto("Semestre:");
+Mensaje.Texto(semestre);
+Mensaje.Texto("Nota 1:");
+Mensaje.Texto(nota1);
+Mensaje.Texto("Nota 2:");
+Mensaje.Texto(nota2);
+Mensaje.Texto("Suma de notas:");
+Mensaje.Texto(sumaNotas);
+Mensaje.Texto("-----------------------------------");
+Mensaje.Texto("Registro completado exitosamente");

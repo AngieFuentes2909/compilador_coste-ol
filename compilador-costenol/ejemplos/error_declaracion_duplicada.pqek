@@ -1,0 +1,18 @@
+// ─────────────────────────────────────────────
+//  Ejemplo ERROR: Declaracion Duplicada
+//  Este ejemplo tiene un ERROR SEMANTICO
+//  La variable 'edad' se declara dos veces
+//  El analizador semantico lo debe detectar
+// ─────────────────────────────────────────────
+
+nombre Texto;
+edad Entero;
+
+// ERROR: edad ya fue declarada arriba
+edad Entero;
+
+nombre = "Carlos";
+edad = 25;
+
+Mensaje.Texto(nombre);
+Mensaje.Texto(edad);

@@ -1,0 +1,32 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Area y Perimetro de un Rectangulo
+//  Formula: Area = base * altura
+//           Perimetro = (base + altura) * 2
+// ─────────────────────────────────────────────
+
+base Entero;
+altura Entero;
+area Entero;
+semiperim Entero;
+perimetro Entero;
+
+Mensaje.Texto("Calculo de Area y Perimetro - Rectangulo");
+Mensaje.Texto("Ingresa la base del rectangulo:");
+base = Captura.Entero();
+
+Mensaje.Texto("Ingresa la altura del rectangulo:");
+altura = Captura.Entero();
+
+area = base * altura;
+semiperim = base + altura;
+perimetro = semiperim + semiperim;
+
+Mensaje.Texto("--- Resultados ---");
+Mensaje.Texto("Base:");
+Mensaje.Texto(base);
+Mensaje.Texto("Altura:");
+Mensaje.Texto(altura);
+Mensaje.Texto("Area (base * altura) =");
+Mensaje.Texto(area);
+Mensaje.Texto("Perimetro (2 * (base + altura)) =");
+Mensaje.Texto(perimetro);

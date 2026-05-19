@@ -1,0 +1,18 @@
+// ─────────────────────────────────────────────
+//  Ejemplo 3: Interactivo con usuario
+//  Compilador Costeñol - PQEK v2.0
+// ─────────────────────────────────────────────
+
+nombre Texto;
+edad Entero;
+
+Mensaje.Texto("¡Epa! ¿Cómo te llamas, llave?");
+nombre = Captura.Texto();
+
+Mensaje.Texto("¿Y cuántos años tienes, mi llave?");
+edad = Captura.Entero();
+
+Mensaje.Texto("¡Qué nota! Te llamas:");
+Mensaje.Texto(nombre);
+Mensaje.Texto("Y tienes:");
+Mensaje.Texto(edad);

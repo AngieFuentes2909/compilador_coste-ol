@@ -1,0 +1,25 @@
+// ─────────────────────────────────────────────
+//  Ejemplo: Calculadora Interactiva
+//  El usuario ingresa dos numeros y
+//  el programa muestra la suma y el producto
+// ─────────────────────────────────────────────
+
+num1 Entero;
+num2 Entero;
+resultadoSuma Entero;
+resultadoProducto Entero;
+
+Mensaje.Texto("Bienvenido a la calculadora costenola");
+Mensaje.Texto("Ingresa el primer numero:");
+num1 = Captura.Entero();
+
+Mensaje.Texto("Ingresa el segundo numero:");
+num2 = Captura.Entero();
+
+resultadoSuma = num1 + num2;
+resultadoProducto = num1 * num2;
+
+Mensaje.Texto("La suma de los dos numeros es:");
+Mensaje.Texto(resultadoSuma);
+Mensaje.Texto("El producto de los dos numeros es:");
+Mensaje.Texto(resultadoProducto);

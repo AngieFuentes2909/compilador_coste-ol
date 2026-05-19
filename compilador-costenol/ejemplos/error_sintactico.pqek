@@ -1,0 +1,15 @@
+// ─────────────────────────────────────────────
+//  Ejemplo ERROR: Error Sintactico
+//  Falta el punto y coma al final de una linea
+//  El analizador sintactico lo debe detectar
+// ─────────────────────────────────────────────
+
+x Entero;
+y Entero;
+
+x = 10;
+
+// ERROR SINTACTICO: falta el ; al final
+y = x + 5
+
+Mensaje.Texto(y);
