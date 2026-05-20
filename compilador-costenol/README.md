@@ -17,14 +17,27 @@ compilador-costenol/
 ├── requirements.txt
 │
 └── ejemplos/
-    ├── hola_mundo.pqek
-    ├── calculo_variables.pqek
-    └── interactivo.pqek
+    ├── calculo_variables.pqek 
+        hola_mundo.pqek 
+        interactivo.pqek 
+        area_rectangulo.pqek 
+       calculadora_interactiva.pqek 
+       error_declaracion_duplicada.pqek 
+       error_lexico.pqek 
+      error_sintactico.pqek 
+      error_variable_no_declarada.pqek 
+       multiples_variables.pqek 
+      numeros_reales.pqek 
+      operaciones_aritmeticas.pqek 
+      promedio_notas.pqek 
+      registro_estudiante.pqek
+       todos_los_tokens.pqek 
+
 ```
 
 ---
 
-## 🛠️ Instalación
+##  Instalación
 
 ### 1. Clonar o descomprimir el proyecto
 
@@ -53,7 +66,7 @@ python interfaz_compilador.py
 
 ---
 
-## 🌴 Sintaxis del lenguaje Costeñol
+##  Sintaxis del lenguaje Costeñol
 
 ### Tipos de datos
 
