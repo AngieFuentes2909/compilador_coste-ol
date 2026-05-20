@@ -1,7 +1,5 @@
 # 🌊 Compilador Costeñol — PQEK 
 
-> *"Un compilador caribeño "*
-
 Compilador educativo completo para el lenguaje **Costeñol (PQEK)**, construido con Python, PLY y PyQt5. Implementa todas las fases clásicas de un compilador: análisis léxico, sintáctico, semántico, AST e interpretación, con una interfaz gráfica moderna de estética caribeña.
 
 ---
