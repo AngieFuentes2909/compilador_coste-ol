@@ -1,6 +1,6 @@
-# 🌊 Compilador Costeñol — PQEK v2.0
+# 🌊 Compilador Costeñol — PQEK 
 
-> *"Un compilador con sabor caribeño colombiano"*
+> *"Un compilador caribeño "*
 
 Compilador educativo completo para el lenguaje **Costeñol (PQEK)**, construido con Python, PLY y PyQt5. Implementa todas las fases clásicas de un compilador: análisis léxico, sintáctico, semántico, AST e interpretación, con una interfaz gráfica moderna de estética caribeña.
 
@@ -143,18 +143,6 @@ Mensaje.Texto(edad);
 - Visualización de la **tabla de símbolos** tras análisis semántico
 - Resaltado de líneas con error en rojo en el editor
 
----
-
-## 🐛 Correcciones respecto a versiones anteriores
-
-1. **`interfaz_compilador.py`** — Eliminada clase duplicada (`PQEKCompilerApp` + `CompilerGUI` coexistían en el mismo archivo)
-2. **`analizador_lexico.py`** — Agregada función `reset_errores()` para limpiar estado global entre compilaciones (evitaba acumulación de errores fantasma)
-3. **`analizador_sintactico.py`** — Agregada regla `p_escritura_expr` para que `Mensaje.Texto(variable)` funcione (solo aceptaba literales de cadena)
-4. **`analizador_semantico.py`** — Corregido `visit_Number`: el campo `node.kind` ya está capitalizado, no necesita `.capitalize()`
-5. **`interprete.py`** — Corregido método de captura de input: `_read_input_from_output` no existía en la clase base; el intérprete ahora usa `_leer_input` unificado
-6. **Tipos en `Mensaje`** — El nodo `Mensaje` ahora envuelve una expresión completa (`node.expr`) en vez de solo texto, soportando variables y operaciones
-
----
 
 ## 📋 Requisitos
 
@@ -164,4 +152,4 @@ Mensaje.Texto(edad);
 
 ---
 
-*Proyecto académico — Compiladores — Corporación Universitaria Latinoamericana (CUL)*
+*Proyecto académico — Compiladores — Corporación Universitaria Latinoamericana (CUL) Angie Fuentes, Daniela Heredia, Wildherman Betancourt y Alejandro Payares*
